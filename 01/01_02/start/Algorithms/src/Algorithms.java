@@ -3,6 +3,10 @@ public class Algorithms {
 
     public static void main(String[] args) {
 
+        System.out.println(isPassWordComplex("Hello123"));
+        System.out.println(isPassWordComplex("Hello"));
+        System.out.println(isPassWordComplex("Hello$"));
+
     }
 
     public static boolean isPassWordComplex(String str){
