@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class Algorithms {
 
     public static int[] reverse(int[] arr) {
-        int [] = result = new [arr.length];
-        for(int i = 0; import < arr.length; i++){
-            result[i]= arr.length - 1 - i;
+        int[]  result = new int[arr.length];
+        for(int i = 0; i< arr.length; i++){
+            result[i]= arr[ arr.length - 1 - i];
         }
         return result;
     }
